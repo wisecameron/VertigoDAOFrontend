@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+.glowingButton
+{
+    transform: translate(-0%, 0%);
+    text-align: center;
+    padding: 0px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    line-height:  6vh;
+    color: #bababa;
+    background: none;
+    font-size: 1.5vh;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: "Source Sans Pro, sans-serif";
+    box-sizing: border-box;
+    background-size: 0%;
+    background-size: 400%;
+    backdrop-filter: blur(30px);
+    border-radius: 5vw;
+    border: 0.1vh solid #8a8a8a;
+}
+
+.button7 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.glowingButton:hover{
+    animation: animate 8s linear infinite;
+    cursor: pointer;
+    color: transparent;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+.glowingButton::before
+{
+    content: '';
+    text-align: center;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;    
+    background: linear-gradient(90deg, #03a9f4, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.glowingButton:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+/* CSS */
+.button62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 1vmax;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+
+/* CSS */
+.button2 {
+  background: #d1d1d1;
+  color: black;
+  width: 7vw;
+  border: none;
+  border-radius: 5px;
+}
+
+.button2 {
+  background: #d1d1d1;
+  color: black;
+  width: 7vw;
+  border: none;
+  border-radius: 5px;
+}

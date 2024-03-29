@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+.TDiv
+{
+    transform-style: preserve-3d;
+}
+
+.Card2
+{
+    display: flex;
+    flex-direction: column;
+    height: 25vmax;
+    width: 15vmax;
+    border-radius: 1.4vmax;
+    background-size: cover;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+.Card
+{
+    display: grid;
+    grid-template-columns: 15vmax;
+    grid-template-rows: 10vmax 10vmax 5vmax;
+    grid-template-areas: "image" "text";
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 1.4vmax;
+    background: #1d1d1d;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    transform-style: preserve-3d;
+}
+
+.js-tilt-glare
+{
+    border-radius: 16px;
+}
+
+.rgb::after{
+    content: "";
+    background: linear-gradient(45deg,
+    #737575 0%,  
+    #fff 10%,
+    #737575  20%,
+    #fff 30%, 
+    #737575  40%, 
+    #fff 50%,
+    #737575 55%,
+    #fff  60%,
+    #737575 70%, 
+    #fff 100% )
+    repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 16px;
+    filter: blur(4px);
+    transform: translateZ(-1px);
+    animation: rgb 6s linear infinite;
+}
+@keyframes rgb {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+.CardImage
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.Tilt
+{
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    cursor: grab;
+}
+
+.CardText
+{
+    grid-area: text;
+    margin: 0.8vmax;
+    transform: TranslateZ(60px);
+}
+
+
+.ZT
+{
+    transform: TranslateZ(0px);
+}
+
+.ZT3
+{
+    transform: TranslateZ(0px);
+}
+
+.ZT3:hover
+{
+    transform: TranslateZ(60px);
+}
+
+.ZT2
+{
+    transform: TranslateZ(30px);
+}
+.CardText .date{
+    margin-top: 1vmin;
+    color: #69bf64;
+    font-size: 0.8vmax;
+    margin-left: 0.5vmax;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.CardText .type{
+    font-size: 1vmax;
+    margin-left: 0.5vmax;
+}
+
+.CardText p{
+    color: grey;
+    font-size: 1.9vmin;
+    font-weight: 300;
+    margin-left: 0.5vw;
+    width: 95%;
+    
+}
+
+.CardText h2
+{
+    color: white;
+    margin-top: 2vmin;
+    text-shadow: "2px 2px 10px #ababab";
+    margin-left: 0.5vw;
+    font-size: 1.4vw;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media only screen and (max-width: 1116px) and (min-width: 801px)
+{
+    .Card2
+{
+    display: flex;
+    flex-direction: column;
+    height: 25vmax;
+    width: 15vmax;
+    border-radius: 1.4vmax;
+    background-size: cover;
+    transform-style: preserve-3d;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+    .Card
+    {
+        display: grid;
+        grid-template-columns: 15vmax;
+        grid-template-rows: 10vmax 10vmax 5vmax;
+        grid-template-areas: "image" "text";
+        font-family: 'Source Sans Pro', sans-serif;
+        border-radius: 1.4vmax;
+        background: #1d1d1d;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+        transform-style: preserve-3d;
+    }
+
+    .CardText
+    {
+        grid-area: text;
+        margin: 0.8vmax;
+        transform: TranslateZ(60px);
+    }
+
+    .CardText .date{
+        color: #69bf64;
+        font-size: 0.8vmax;
+        margin-left: 0.5vmax;
+    }
+
+    .CardText .type{
+        font-size: 1vmin;
+        margin-left: 0.5vmax;
+    }
+
+    .CardText p{
+        color: grey;
+        font-size: 1.4vmin;
+        font-weight: 300;
+        margin-left: 0.5vw;
+        
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .Card
+    {
+        width: 15vmax;
+        height: 24vmax;
+        display: grid;
+        grid-template-columns: 15vmax;
+        grid-template-rows: 10vmax 10vmax 5vmax;
+        grid-template-areas: "image" "text";
+        font-family: 'Source Sans Pro', sans-serif;
+        border-radius: 8px;
+        background: #1d1d1d;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+        transform-style: preserve-3d;
+    }
+
+    .CardImage
+    {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }  
+
+    .CardText
+    {
+        grid-area: text;
+        margin: 0.8vmax;
+        transform: TranslateZ(60px);
+    }
+
+    .CardText .date{
+        color: #69bf64;
+        font-size: 1vmax;
+        margin-left: 0.5vmax;
+    }
+
+    .CardText .type{
+        font-size: 1.8vmin;
+        margin-left: 0.5vmax;
+    }
+
+    .CardText p{
+        color: grey;
+        font-size: 2vmin;
+        font-weight: 300;
+        margin-left: 0.5vw;
+        
+    }
+}
+

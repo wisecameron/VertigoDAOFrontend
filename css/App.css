@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.fontLink
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.lightFuturistic
+{
+  font-family: 'Oxanium', cursive;
+}
+
+.orbitron
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.titleFont
+{
+  font-family: 'Sora', sans-serif;
+}
+
+.rajdani
+{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.nunitosans
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.earthorbiter
+{
+  font-family: 'Earth Orbiter', sans-serif;
+}
+
+.ConnectButton
+{
+    background-color: transparent;
+    color: white;
+    border: 0.05vmax solid white;
+    border-radius: 2px;
+}
+
+.ConnectButton:hover
+{
+    background-color: black;
+    color: grey;
+    border: 0.05vmax solid grey;
+}
+
+.animate
+{
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@keyframes fade
+{
+    from{color: black}
+    to{color: white}
+}
+
+.DisplayFont
+{
+    font-family: 'Gilda Display', serif;
+}
+
+.button7 {
+  background-color: #bfbfbf;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button7:hover,
+.button7:focus {
+  background-color: #07c;
+}
+
+.button7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.graddivbody 
+{
+	background: linear-gradient(-45deg, #262626, #11223d, #33113d, #11223d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.teamCard
+{
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255, 0.5);
+  background: rgba(255,255,255, 0.8);
+  backdrop-filter: blur(20px);
+  opacity: 0.5;
+}
+
+.btn2 {
+  filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.6));
+}
+.btn2 span {
+  display:inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1vmin 6vmin;
+  text-align: center;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  background-color: #161213;
+  background-image: radial-gradient(200% 70% at center 20%, rgba(48,44,45,1) -30%, rgba(50,46,47,1) 49%, rgba(22,18,19,1) 50%, rgba(22,18,19,1) 150%);
+  background-repeat: no-repeat;
+  transition: background-position-y ease-in-out 250ms;
+  font-size: 2.5vmin;
+}
+
+.btn2:hover span {
+  background-position-y: -50px;
+}
+
+.gradientbg {
+	background: linear-gradient(-45deg, #000000, #101010, #121212, #151515);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite alternate;
+	height: 100vh;
+}
+
+@keyframes gradientbg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
