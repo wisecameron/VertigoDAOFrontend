@@ -22,17 +22,6 @@
   Feel free to connect with me on linkedin! https://www.linkedin.com/in/cameron-warnick-64a25222a/
      
   </p>
-  <p>
-
-[![Build Status](https://travis-ci.com/wisecameron/VertigoDAOFrontend.svg?branch=master)](https://travis-ci.com/wisecameron/VertigoDAOFrontend)
-[![NPM version](https://img.shields.io/npm/v/VertigoDAOFrontend?style=flat-square)](https://img.shields.io/npm/v/VertigoDAOFrontend?style=flat-square)
-[![Package size](https://img.shields.io/bundlephobia/min/VertigoDAOFrontend)](https://img.shields.io/bundlephobia/min/VertigoDAOFrontend)
-[![Dependencies](https://img.shields.io/david/wisecameron/VertigoDAOFrontend.svg?style=popout-square)](https://david-dm.org/wisecameron/VertigoDAOFrontend)
-[![devDependencies Status](https://david-dm.org/wisecameron/VertigoDAOFrontend/dev-status.svg?style=flat-square)](https://david-dm.org/wisecameron/VertigoDAOFrontend?type=dev)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Twitter](https://img.shields.io/twitter/follow/luctstt.svg?label=Follow&style=social)](https://twitter.com/luctstt)
-
-  </p>
 </div>
 
 ---
